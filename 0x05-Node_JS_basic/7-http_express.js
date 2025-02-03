@@ -59,7 +59,7 @@ const countStudents = (dataPath) => new Promise((resolve, reject) => {
 });
 
 app.get('/', (_, res) => {
-  res.send('Hello ALX!');
+  res.send('Hello Holberton School!');
 });
 
 app.get('/students', (_, res) => {
